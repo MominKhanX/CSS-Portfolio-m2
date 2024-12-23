@@ -8,7 +8,7 @@ import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri'
 import { SiTypescript } from 'react-icons/si'
 
-const page = () => {
+const Page = () => {
   useEffect(() => {
     const resumeBtns = document.querySelectorAll<HTMLButtonElement>('.resume-btn');
     const resumeDetails = document.querySelectorAll<HTMLDivElement>('.resume-detail');
@@ -226,4 +226,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

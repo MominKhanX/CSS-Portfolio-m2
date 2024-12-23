@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import React from 'react';
 import { FaArrowLeft, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
-const page = () => {
+const Page = () => {
 
   useEffect(() => {
     const arrowRight = document.querySelector<HTMLDivElement>('.portfolio-box .navigation .arrow-right');
@@ -153,4 +153,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 import { FaMapLocationDot } from 'react-icons/fa6'
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <section className="contact">
@@ -52,4 +52,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
